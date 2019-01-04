@@ -169,3 +169,9 @@ set t_Co=256
 colorscheme desert
 
 autocmd BufWritePre *.py :%s/\s\+$//e
+
+set mouse+=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
