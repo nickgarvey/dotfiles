@@ -175,3 +175,6 @@ if &term =~ '^screen'
     " tmux knows the extended mouse mode
     set ttymouse=xterm2
 endif
+
+" have backspace actually work
+set bs=indent,eol,start
