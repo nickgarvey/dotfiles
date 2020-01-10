@@ -178,3 +178,6 @@ endif
 
 " have backspace actually work
 set bs=indent,eol,start
+
+" netrw options (in particular, show line numbers)
+let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
