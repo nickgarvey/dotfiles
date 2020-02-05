@@ -131,7 +131,7 @@ map 0 ^
 map <leader>ss :setlocal spell!<cr>
 
 " Toggle paste mode (disables autoindentation)
-set pastetoggle=<F2>
+set pastetoggle=<leader>p
 
 " Toggle character line
 map <leader>l8 :set colorcolumn=80<cr>
